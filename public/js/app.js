@@ -53,7 +53,7 @@ class Errors {
      * @param {string|null} field
      */
     clear(field) {
-        if (field) {
+        if (this.errrors[field]) {
             delete this.errors[field];
 
             return;
